@@ -1,0 +1,210 @@
+
+$assetPath : "/assets/images";
+
+#heading{
+font-family: 'Satisfy', cursive;
+    color: white;
+font-size: 30px;
+}
+#overlay{
+    opacity: 0.8;
+}
+#formwidth{
+    
+    padding-top: 70px;
+}
+#logintext{
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 20px;
+}
+.formtb{
+    width: 325px;
+    border-radius: 5px;
+}
+#forgetpassword{
+    font-size: 18px;
+    color: white;
+}
+#signin{
+    color: black;
+    border-radius: 5px;
+    background-color: white; 
+}
+#visitsite{
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 12px;
+    
+}
+#xevello{
+    font-family: 'Montez', cursive; 
+    color: white;
+    font-size: 40px;
+}
+#copyrights{
+    color: white;
+    font-size: 18px;
+}
+#xevellofont{
+    font-family: 'Montez', cursive;
+}
+#navbar{
+    background-color: white;
+}
+#navacc{
+    padding: 10px;
+    border:none;
+}
+#account{
+    padding: 20px;
+    border-radius: 5px;
+}
+#logo{
+    font-weight: bold;
+    color: grey;
+    font-size: 30px;  
+    font-family: 'Montez', cursive;
+}
+#notification{
+    padding: 0px;
+    padding-left: 25px;
+    font-size: 15px;
+    border:none;
+}
+#ex4 .p1[data-count]:after{
+    position:absolute;
+    right:12%;
+    top:15%;
+    content: attr(data-count);
+    font-size:10px;
+    padding:.2em;
+    border-radius:50%;
+    line-height:1em;
+    color: white;
+    background:rgba(255,0,0,.85);
+    text-align:center;
+    min-width: 1em; 
+}
+#search{
+    border-radius: 15px;
+    font-size: 13px;
+    height: 34px;
+    width: 200px;
+}
+#dc{
+    background-color: white; 
+    color: white;
+}
+#dcli{
+    color: black;
+}
+#dca{
+    color: #375384; 
+    font-weight: bold;
+}
+#menubar{
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    position:relative;
+    max-height: 70px;
+}
+#mbtitle{
+    font-weight: bold;
+}
+#statscard{
+    border-radius: 5px;
+    background-color: mediumpurple;
+    padding: 1.25rem;
+    color: white;
+    background-image: url(#{$assetPath}/images/hover.png);
+        background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+#iconav{
+    float: right;
+    font-size: 35px;
+}
+#badgenav{
+    font-size: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+    background-color: #29bbe3;
+}
+#badgecolor{
+    background-color: #ec536c;
+}
+/* invoices */
+#formtext{
+    margin-top: 10px;
+}
+#tableheading{
+    font-weight: bold; 
+    font-size: 12px;
+    margin: 0px;
+}
+#addmorebtn{
+    padding-right: 10px;
+    padding-left:  10px;
+}
+#statscards{
+    border-radius: 5px;
+    background-color:#963210;
+    padding: 1.25rem;
+    color: white;
+    background-image: url(#{$assetPath}/images/hover.png);
+        background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+#anch{
+    text-decoration: none;
+    color: white;
+}
+#thead{
+    font-weight: bold;
+    color: black;
+}
+#feedback{
+    line-height: 0px;
+}
+#searchpr{
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    padding-left:  15px;
+    width: 225px;
+    color: #0e4091;
+    font-weight: bold;
+}
+#prmore{
+    background-color: white;
+    border: none;
+    outline: none;
+}
+#modal-view{
+    border-radius: 5px;
+}
+ 
+.xev-short-pagination span, [uk-icon].xev-icon, {
+    padding:1px;
+    border-radius:2px; 
+    background-color:#f9f9f9; 
+    color:#174691; 
+    cursor:pointer;
+}
+ 
+.xev-icon.fa {
+    padding:5px; 
+    border-radius:2px; 
+    background-color:#f2f2f2; 
+    text-decoration:none; 
+    color:#005059;  
+    font-size:12px;border:none; 
+    outline:none; 
+    cursor:pointer;
+}
